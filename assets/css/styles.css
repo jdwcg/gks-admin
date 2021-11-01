@@ -1,0 +1,12 @@
+.col.asideMenu {
+  flex: .2;
+}
+
+.row.wrapper {
+  display: flex;
+}
+
+.col.contents {
+  flex: 1;
+}
+

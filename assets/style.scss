@@ -109,3 +109,9 @@ h2, h3 {border-radius: 4px;}
     }
   }
 }
+.depth3 {
+  position: relative;
+  a > i {
+    position: absolute; right: 10px; top: 1px;
+  }
+}

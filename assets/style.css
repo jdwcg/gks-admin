@@ -34,4 +34,7 @@ h2, h3 { border-radius: 4px; }
 .main > h5 > span > i { color: var(--lnb); margin-right: 10px; position: relative; top: -3px; }
 .main > a > i { color: var(--lnb); position: absolute; right: 30px; top: 50%; -webkit-transform: translateY(-70%); transform: translateY(-70%); }
 
+.depth3 { position: relative; }
+.depth3 a > i { position: absolute; right: 10px; top: 1px; }
+
 /*# sourceMappingURL=style.css.map */

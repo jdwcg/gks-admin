@@ -6,13 +6,15 @@ h1{font-size: 18px;} h2{font-size: 16px; font-weight: 500;} h3 {font-size: 14px;
 h4 {font-size: 14px; font-weight: 400; color: #000;}
 h2, h3 {border-radius: 4px;}
 :root {
-  --gnb: #ddd;
-  --lnb: #eee;
-  --lnbinner: #f5f5f5;
+  --gnb: #bec9ca;
+  --lnb: #e0e5e5;
+  --lnbinner: #f0f3f3;
+  --line: #f4f8f8;
 }
 .asideMenu {
-  background: #fafafa;
-  width: 200px; height: 100vh;
+  position: fixed;
+  background: #f4f8f8;
+  width: 200px; height: 100%;
   padding: 1rem;
   section:nth-child(1) {
     display: flex; justify-content: center;
@@ -42,7 +44,7 @@ h2, h3 {border-radius: 4px;}
           h3 {
             background: var(--lnb);
             a {
-              border-top: 2px solid #fff;
+              border-bottom: 3px solid var(--lnbinner);;
               width: 100%;
               display: block;
               padding: 4px 24px;
@@ -62,4 +64,7 @@ h2, h3 {border-radius: 4px;}
       }
     }
   }
+}
+.main {
+  margin-left: 200px;
 }

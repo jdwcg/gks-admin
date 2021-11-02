@@ -13,9 +13,9 @@ h4 { font-size: 14px; font-weight: 400; color: #000; }
 
 h2, h3 { border-radius: 4px; }
 
-:root { --gnb: #ddd; --lnb: #eee; --lnbinner: #f5f5f5; }
+:root { --gnb: #bec9ca; --lnb: #e0e5e5; --lnbinner: #f0f3f3; --line: #f4f8f8; }
 
-.asideMenu { background: #fafafa; width: 200px; height: 100vh; padding: 1rem; }
+.asideMenu { position: fixed; background: #f4f8f8; width: 200px; height: 100%; padding: 1rem; }
 .asideMenu section:nth-child(1) { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 1rem 0; }
 .asideMenu section:nth-child(2) { padding-bottom: 1rem; }
 .asideMenu section:nth-child(2) p { font-size: 14px; padding: 4px 12px; }
@@ -23,7 +23,9 @@ h2, h3 { border-radius: 4px; }
 .asideMenu section:nth-child(3) { clear: both; }
 .asideMenu section:nth-child(3) div.acc h2 { cursor: pointer; text-align: center; padding: 8px 12px; margin: 4px 0; background: var(--gnb); }
 .asideMenu section:nth-child(3) div.acc ul li h3 { background: var(--lnb); }
-.asideMenu section:nth-child(3) div.acc ul li h3 a { border-top: 2px solid #fff; width: 100%; display: block; padding: 4px 24px; }
+.asideMenu section:nth-child(3) div.acc ul li h3 a { border-bottom: 3px solid var(--lnbinner); width: 100%; display: block; padding: 4px 24px; }
 .asideMenu section:nth-child(3) div.acc ul li.lnb ul li h4 { background: var(--lnbinner); padding: 2px 0 2px 34px; }
+
+.main { margin-left: 200px; }
 
 /*# sourceMappingURL=style.css.map */

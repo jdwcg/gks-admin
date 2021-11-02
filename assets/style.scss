@@ -44,7 +44,7 @@ h2, h3 {border-radius: 4px;}
           h3 {
             background: var(--lnb);
             a {
-              border-bottom: 3px solid var(--lnbinner);;
+              border-bottom: 3px solid var(--lnbinner);
               width: 100%;
               display: block;
               padding: 4px 24px;
@@ -67,4 +67,16 @@ h2, h3 {border-radius: 4px;}
 }
 .main {
   margin-left: 200px;
+  position: relative;
+  > h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 2em;
+    background: var(--lnbinner);
+  }
+  i {
+    position: absolute;
+    right: 30px;
+    top: 50%; transform: translateY(-50%);
+  }
 }

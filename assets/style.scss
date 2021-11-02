@@ -12,10 +12,12 @@ h2, h3 {border-radius: 4px;}
   --line: #f4f8f8;
 }
 .asideMenu {
-  position: fixed;
+  // box-shadow: 5px 0 14px rgba(100,100,100,.1);
+  position: fixed; z-index: 5;
+  border-right: 1px solid var(--lnbinner);
   background: #f4f8f8;
-  width: 200px; height: 100%;
-  padding: 1rem;
+  width: 220px; height: 100%;
+  padding: 1rem 1.5em;
   section:nth-child(1) {
     display: flex; justify-content: center;
     padding: 1rem 0;
@@ -37,6 +39,9 @@ h2, h3 {border-radius: 4px;}
         padding: 8px 12px;
         margin: 4px 0;
         background: var(--gnb);
+        > i {
+          position: relative; top: -2px; left: 8px;
+        }
       }
       ul {
         li {
@@ -66,17 +71,30 @@ h2, h3 {border-radius: 4px;}
   }
 }
 .main {
-  margin-left: 200px;
-  position: relative;
+  margin-left: 220px;
+  position: relative; z-index: 1;
   > h5 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 1rem 2em;
-    background: var(--lnbinner);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .3rem 2em;
+    background: #2a4142;
+    display: flex;
+    > span {
+      position: relative;
+      color: var(--lnb);
+      > i {
+        color: var(--lnb);
+        margin-right: 10px;
+        position: relative; top: -3px;
+     }
+    }
   }
-  i {
-    position: absolute;
-    right: 30px;
-    top: 50%; transform: translateY(-50%);
+  > a {
+    > i {
+      color: var(--lnb);
+      position: absolute;
+      right: 30px;
+      top: 50%; transform: translateY(-70%);
+    }
   }
 }

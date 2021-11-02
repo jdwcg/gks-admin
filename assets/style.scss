@@ -12,6 +12,7 @@ h2, h3 {border-radius: 4px;}
   --line: #f4f8f8;
 }
 .asideMenu {
+  overflow-y: auto;
   // box-shadow: 5px 0 14px rgba(100,100,100,.1);
   position: fixed; z-index: 5;
   border-right: 1px solid var(--lnbinner);
@@ -21,19 +22,21 @@ h2, h3 {border-radius: 4px;}
   section:nth-child(1) {
     display: flex; justify-content: center;
     padding: 1rem 0;
+    background: var(--lnb);
+    border-radius: 8px 8px 0 0;
   }
   section:nth-child(2) {
-    border-top: 2px solid var(--lnb);
-    border-bottom: 2px solid var(--lnb);
-    margin: 0 0 1.5rem 0;
+    // border-top: 2px solid var(--lnb);
+    // border-bottom: 2px solid var(--lnb);
+    margin: 1.5rem 0 1.5rem 0;
     padding: .5rem 0;
     p {
       font-size: 14px;
       padding: 4px 12px;
-      color: #666;
+      color: #789394;
       span {
-        color: #666;
-        > a {color: #666; float: right;}
+        color: #789394;
+        > a {color: #789394; float: right;}
       }
     }
   }

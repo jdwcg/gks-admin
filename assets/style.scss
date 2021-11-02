@@ -3,8 +3,32 @@
 * {  font-family: 'Noto Sans KR', sans-serif;}
 *{margin:0;padding:0; color: #222; text-decoration: none; box-sizing: border-box;}
 h1{font-size: 20px;} h2{font-size: 18px; font-weight: 400;} h3 {font-size: 14px; font-weight: 600;}
+h4 {font-size: 14px; font-weight: 400;}
 .asideMenu {
-  section {
-
+  section:nth-child(3) {
+    div.acc {
+      h2 { padding: 16px 12px; border-top: 2px solid tan;}
+      ul {
+        li {
+          h3 {
+            a {
+              border-top: 1px solid tan;
+              width: 180px;
+              display: block;
+              padding: 4px 24px;
+            }
+          }
+        }
+        li.lnb {
+          ul {
+            li {
+              h4 {
+                padding: 4px 34px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -9,4 +9,10 @@ h2 { font-size: 18px; font-weight: 400; }
 
 h3 { font-size: 14px; font-weight: 600; }
 
+h4 { font-size: 14px; font-weight: 400; }
+
+.asideMenu section:nth-child(3) div.acc h2 { padding: 16px 12px; border-top: 2px solid tan; }
+.asideMenu section:nth-child(3) div.acc ul li h3 a { border-top: 1px solid tan; width: 180px; display: block; padding: 4px 24px; }
+.asideMenu section:nth-child(3) div.acc ul li.lnb ul li h4 { padding: 4px 34px; }
+
 /*# sourceMappingURL=style.css.map */

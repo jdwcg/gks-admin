@@ -15,9 +15,9 @@ h2, h3 { border-radius: 4px; }
 
 :root { --gnb: #bec9ca; --lnb: #e0e5e5; --lnbinner: #f0f3f3; --line: #f4f8f8; }
 
-.asideMenu { overflow-y: auto; position: fixed; z-index: 5; border-right: 1px solid var(--lnbinner); background: #f4f8f8; width: 220px; height: 100%; padding: 1rem 1.5em; }
+.asideMenu { overflow-y: auto; position: fixed; z-index: 5; border-right: 1px solid var(--lnbinner); background: #f4f8f8; width: 260px; height: 100%; padding: 1rem 1.5em; }
 .asideMenu section:nth-child(1) { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 1rem 0; background: var(--lnb); border-radius: 8px 8px 0 0; }
-.asideMenu section:nth-child(2) { margin: 1.5rem 0 1.5rem 0; padding: .5rem 0; }
+.asideMenu section:nth-child(2) { padding: .5rem 0; }
 .asideMenu section:nth-child(2) p { font-size: 14px; padding: 4px 12px; color: #789394; }
 .asideMenu section:nth-child(2) p span { color: #789394; }
 .asideMenu section:nth-child(2) p span > a { color: #789394; float: right; }
@@ -25,10 +25,10 @@ h2, h3 { border-radius: 4px; }
 .asideMenu section:nth-child(3) div.acc h2 { position: relative; cursor: pointer; text-align: left; padding: 8px 12px; margin: 4px 0; background: var(--gnb); }
 .asideMenu section:nth-child(3) div.acc h2 > i { position: absolute; top: 4px; right: 14px; }
 .asideMenu section:nth-child(3) div.acc ul li h3 { background: var(--lnb); }
-.asideMenu section:nth-child(3) div.acc ul li h3 a { border-bottom: 3px solid var(--lnbinner); width: 100%; display: block; padding: 4px 24px; }
-.asideMenu section:nth-child(3) div.acc ul li.lnb ul li h4 { background: var(--lnbinner); padding: 2px 0 2px 34px; }
+.asideMenu section:nth-child(3) div.acc ul li h3 a { margin-bottom: 3px; width: 100%; display: block; padding: 4px 24px; }
+.asideMenu section:nth-child(3) div.acc ul li.lnb ul li h4 { background: var(--lnbinner); padding: 2px 0 2px 34px; margin-bottom: 3px; border-radius: 4px; }
 
-.main { margin-left: 220px; position: relative; z-index: 1; }
+.main { margin-left: 260px; position: relative; z-index: 1; }
 .main > h5 { font-size: 1rem; font-weight: 400; padding: .3rem 2em; background: #2a4142; display: -webkit-box; display: -ms-flexbox; display: flex; }
 .main > h5 > span { position: relative; color: var(--lnb); }
 .main > h5 > span > i { color: var(--lnb); margin-right: 10px; position: relative; top: -3px; }

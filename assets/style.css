@@ -37,4 +37,6 @@ h2, h3 { border-radius: 4px; }
 .depth3 { position: relative; }
 .depth3 a > i { position: absolute; right: 10px; top: 1px; }
 
+.contents { margin-left: 260px; position: relative; z-index: 1; padding: 2rem; }
+
 /*# sourceMappingURL=style.css.map */

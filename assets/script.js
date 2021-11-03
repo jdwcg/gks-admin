@@ -1,5 +1,5 @@
 $(function(){
-  var allPanels = $('.acc ul').hide();
+  // var allPanels = $('.acc ul').hide();
   // $('.acc ul:first-child').show();
 
   $('.acc > h2').click(function(e) {
